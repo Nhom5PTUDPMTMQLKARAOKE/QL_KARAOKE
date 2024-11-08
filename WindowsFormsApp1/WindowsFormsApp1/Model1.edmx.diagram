@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e70323acdc74cb88e596d47e99f2b71" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_KaraokeModel.ChiTietHoaDon" Width="1.5" PointX="9.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.DichVu" Width="1.5" PointX="7.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.HoaDon" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.Khach" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.KhuyenMai" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.LoaiKhach" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.NhanVien" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.PhieuDatPhong" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.Phong" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.ThietBi" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_KaraokeModel.ThietBi_Phong" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__ChiTietHo__MaDic__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__ChiTietHo__MaHoa__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__HoaDon__MaNhanVi__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__HoaDon__MaPhieuD__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__Khach__MaLoaiKha__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__PhieuDatP__MaKha__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__KhuyenMai__MaLoa__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__PhieuDatP__MaKhu__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__PhieuDatP__MaPho__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__ThietBi_P__MaPho__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_KaraokeModel.FK__ThietBi_P__MaThi__5AEE82B9" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
